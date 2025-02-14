@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Horizontally center */
+    background-color: #ffffff;
+    color: #757575;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    gap: 10px; /* Image और Text के बीच स्पेस */
+    width: 250px; /* बटन की चौड़ाई */
+    text-align: center;
+}
+
+.google-btn:hover {
+    background-color: #f7f8f9;
+    box-shadow: 0 2px 5px rgba(245, 57, 57, 0.2);
+}
+
+.google-btn img {
+    width: 30px; /* Logo छोटा */
+    height: 30px;
+}
+.button-container {
+        display: grid;
+        place-items: center;
+        height: 15vh;
+}
