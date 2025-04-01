@@ -6,10 +6,11 @@
     display: none;
 }
 
-.google-btn {
+
+/* .google-btn {
     display: flex;
     align-items: center;
-    justify-content: center; /* Horizontally center */
+    justify-content: center; 
     background-color: #ffffff;
     color: #757575;
     border: 1px solid #dadce0;
@@ -20,8 +21,8 @@
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    gap: 10px; /* Image और Text के बीच स्पेस */
-    width: 250px; /* बटन की चौड़ाई */
+    gap: 10px; 
+    width: 250px; 
     text-align: center;
 }
 
@@ -31,11 +32,42 @@
 }
 
 .google-btn img {
-    width: 30px; /* Logo छोटा */
+    width: 30px; 
     height: 30px;
 }
 .button-container {
         display: grid;
         place-items: center;
         height: 15vh;
+} */
+
+
+
+
+/*country code*/
+
+/* Input field की width fix करने के लिए */
+.iti {
+    width: 100% !important;
 }
+
+/* Country Code के लिए padding सही करें */
+.iti__selected-flag {
+    height: 100% !important;
+    padding-left: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+/*  firm form css */
+
+
+
+
+

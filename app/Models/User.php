@@ -29,6 +29,7 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'number',
         'password',
         'google_id',
     ];
@@ -66,4 +67,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+public function firm(){
+    return $this->hasMany(firms::class);
+}
+
 }

@@ -49,14 +49,14 @@
 
 
 
-            <div class="button-container">
+            <!-- <div class="button-container">
                 <a href=" {{ url('auth/google') }}" class="w-full">
                     <button class="google-btn">
                         <img src="{{ asset('images/google logo.png') }}" alt="Google Logo">
                         Sign in with Google
                     </button>
                 </a>
-            </div>
+            </div> -->
             @vite('resources/css/app.css')
 
         </form>
